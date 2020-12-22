@@ -2,8 +2,8 @@
 	<Page>
 		<div class="content">
 		<h1>Villages</h1>
-	<div class="ajouter"></div>
-    <table>
+	<div class="tableau">
+		<table>
       <tr>
         <th scope="col">Nom</th>
         <th scope="col">Code Postal</th>
@@ -19,7 +19,25 @@
         <td>35000</td>
         <td><img src="../assets/icones/modifs.svg" alt="" /></td>
       </tr>
+    </table>
+	</div>
 
+    <table>
+      <tr>
+        <th scope="col">Ajouter un village</th>
+      </tr>
+      <tr>
+        <td>
+			<div class="container">
+			<div class="nom">Nom</div>
+			<Champ texte="Nom Village"></Champ>
+			</div>
+			<div clas="container">
+			<div class="codePostal">Code Postal</div>
+			<Champ texte="Code Postal"></Champ>
+			</div>
+		</td>
+    </tr>
     </table>
 </div>
 	</Page>
@@ -27,10 +45,13 @@
 
 <script>
 	import Page from "@/components/Page.vue";
+	import ChampsPlaceHolder from "@/components/ChampsPlaceHolder.vue";
 	export default {
 		name: "Villages",
-		components: {Page},
-	};
+		components: {Page, 
+						Champ: ChampsPlaceHolder},
+		}	
+	
 </script>
 
 <style scoped>

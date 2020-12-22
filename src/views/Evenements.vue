@@ -84,6 +84,6 @@
 	.bloc {
 	display: flex;
 	flex-direction: column;
-		border: 2px solid rgb(200,200,200);
+		border: 1px solid rgb(200,200,200);
 	}
 </style>
