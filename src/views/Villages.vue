@@ -1,6 +1,27 @@
 <template>
 	<Page>
-		<div class="content">Villages</div>
+		<div class="content">
+		<h1>Villages</h1>
+	<div class="ajouter"></div>
+    <table>
+      <tr>
+        <th scope="col">Nom</th>
+        <th scope="col">Code Postal</th>
+        <th scope="col">Modifier</th>
+      </tr>
+      <tr>
+        <td>Nantes</td>
+        <td>44000</td>
+        <td><img src="../assets/icones/modifs.svg" alt="" /></td>
+      </tr>
+      <tr>
+        <td>Rennes</td>
+        <td>35000</td>
+        <td><img src="../assets/icones/modifs.svg" alt="" /></td>
+      </tr>
+
+    </table>
+</div>
 	</Page>
 </template>
 
@@ -13,8 +34,38 @@
 </script>
 
 <style scoped>
+h1 {
+	padding: 30px;;
+	display: flex;
+	flex-direction: row;
+
+}
 	.content {
-		padding: 20px;
-		flex: 1 0 auto;
+	display: flex;
+	justify-content: center;
 	}
+	table {
+		border-collapse: collapse;
+		border: 2px solid rgb(200,200,200);
+		letter-spacing: 1px;
+		font-size: 0.8rem;
+}
+
+	td, th {
+		border: 1px solid rgb(190,190,190);
+		padding: 10px 20px;
+}
+
+	th {
+		background-color: rgb(235,235,235);
+}
+
+	td {
+	text-align: center;
+}
+.img {
+	display: flex;
+height: 10px;
+}
+
 </style>

@@ -7,7 +7,7 @@
 		name: "App",
 		watch: {
 			$route(to) {
-				document.title = to.meta.title || "GMAC";
+				document.title = to.meta.title || "Breizh Video ";
 			},
 			immediate: true,
 		},

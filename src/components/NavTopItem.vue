@@ -7,7 +7,7 @@
 
 <script>
 	export default {
-		name: "NavLeftItem",
+		name: "NavTopItem",
 		props: ["label", "route"],
 	};
 </script>
@@ -30,4 +30,5 @@
 	.bouton:visited {
 		color: #91919f;
 	}
+	
 </style>

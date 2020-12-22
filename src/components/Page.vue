@@ -2,7 +2,7 @@
 	<div class="page">
 		<BarreTop></BarreTop>
 		<main>
-			<NavLeft></NavLeft>
+			<NavTop></NavTop>
 			<slot></slot>
 		</main>
 	</div>
@@ -10,11 +10,10 @@
 
 <script>
 	import BarreTop from "@/components/BarreTop.vue";
-	import NavLeft from "@/components/NavLeft.vue";
 	export default {
 		name: "",
 		props: [],
-		components: {BarreTop, NavLeft},
+		components: {BarreTop},
 	};
 </script>
 
@@ -28,6 +27,7 @@
 	}
 	.page main {
 		display: flex;
-		flex-grow: 1;
+		flex-direction: row;
+		
 	}
 </style>

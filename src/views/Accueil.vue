@@ -1,7 +1,8 @@
 <template>
 	<Page>
-		<div class="content">Accueil</div>
-        <img src="../assets/BZV.jpg" alt="" />
+		<div class="content">
+				<img src="../assets/BZV.jpg" alt="" />
+			</div>
 	</Page>
 </template>
 
@@ -15,10 +16,13 @@
 
 <style scoped>
 	.content {
-		padding: 20px;
-		flex: 1 0 auto;
+	display: flex;
+	justify-items: center;
 	}
-    .img{
-        width: 50%;
-    }
+.img
+{
+width: 1440px;
+height: 720px;
+position: relative;
+}
 </style>
