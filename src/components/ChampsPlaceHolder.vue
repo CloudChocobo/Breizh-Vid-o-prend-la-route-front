@@ -30,7 +30,7 @@
         
 	}
 	img {
-		
+		justify-content: center;
 		height:10px;
 		width:10px;
 	}
@@ -40,6 +40,7 @@
 		border:none;
 		border-radius:10px;
 		z-index:1;
+		justify-content: center;
 	}
 
 </style>

@@ -27,6 +27,7 @@
 		font-size: 14px;
 		line-height: 23px;
 		border: 1px solid #91919f;
+		justify-content: center;
 	}
 	.bouton:visited {
 		color: #91919f;

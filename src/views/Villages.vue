@@ -36,7 +36,9 @@
 			<div class="codePostal">Code Postal</div>
 			<Champ texte="Code Postal"></Champ>
 			</div>
+			<div class="valider">
 			<NavTopItem route="/villages" label="Valider"></NavTopItem>
+			</div>
 		</td>
     </tr>
     </table>
@@ -91,5 +93,9 @@ h1 {
 .img {
 	display: flex;
 height: 10px;
+}
+.valider {
+	margin-top: 10px;
+	
 }
 </style>

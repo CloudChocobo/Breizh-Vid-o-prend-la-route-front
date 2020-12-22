@@ -1,8 +1,10 @@
 <template>
 	<Page>
 		<div class="content">
-				<img src="../assets/BZV.jpg" alt="" />
+			<div class="img">
+				<img src="../assets/BZV.svg" alt="" />
 			</div>
+		</div>
 	</Page>
 </template>
 
@@ -18,11 +20,12 @@
 	.content {
 	display: flex;
 	align-items: center;
+	background-color:#3a7181; 
 	}
-.img
-{
-width: 1440px;
-height: 720px;
+	.img {
+	display: flex;
+width: auto;
 
-}
+
+	}
 </style>

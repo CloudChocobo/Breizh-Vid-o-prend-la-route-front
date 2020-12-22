@@ -21,13 +21,11 @@
 	.page {
 		display: flex;
 		flex-direction: column;
-		height: 100%;
-		flex-grow: 1;
-		flex-direction: column;
 	}
 	.page main {
 		display: flex;
 		flex-direction: row;
 		
 	}
+
 </style>
