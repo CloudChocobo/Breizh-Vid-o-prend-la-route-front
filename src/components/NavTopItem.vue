@@ -26,6 +26,7 @@
 		font-weight: normal;
 		font-size: 14px;
 		line-height: 23px;
+		border: 1px solid #91919f;
 	}
 	.bouton:visited {
 		color: #91919f;

@@ -17,12 +17,12 @@
 <style scoped>
 	.content {
 	display: flex;
-	justify-items: center;
+	align-items: center;
 	}
 .img
 {
 width: 1440px;
 height: 720px;
-position: relative;
+
 }
 </style>

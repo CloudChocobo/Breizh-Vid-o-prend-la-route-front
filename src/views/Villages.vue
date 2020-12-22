@@ -36,6 +36,7 @@
 			<div class="codePostal">Code Postal</div>
 			<Champ texte="Code Postal"></Champ>
 			</div>
+			<NavTopItem route="/villages" label="Valider"></NavTopItem>
 		</td>
     </tr>
     </table>
@@ -46,10 +47,13 @@
 <script>
 	import Page from "@/components/Page.vue";
 	import ChampsPlaceHolder from "@/components/ChampsPlaceHolder.vue";
+	import NavTopItem from "@/components/NavTopItem.vue";
 	export default {
 		name: "Villages",
 		components: {Page, 
-						Champ: ChampsPlaceHolder},
+					Champ: ChampsPlaceHolder,
+					NavTopItem,
+						},
 		}	
 	
 </script>
@@ -88,5 +92,4 @@ h1 {
 	display: flex;
 height: 10px;
 }
-
 </style>
